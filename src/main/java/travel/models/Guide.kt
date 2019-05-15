@@ -1,6 +1,6 @@
 package travel.models
 
 data class Guide (
-        val name: String,
-        val phoneNumber: String
+        var name: String,
+        var phoneNumber: String
 )
